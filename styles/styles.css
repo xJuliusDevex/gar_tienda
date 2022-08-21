@@ -70,11 +70,26 @@
 }
 .cabezera__navegacion li
 {
-    display: inline;
+    display: inline-block;
+    position: relative;
 }
 .cabezera__navegacion li a{
     color:#FFFF;
     font-family: 'Inconsolata', monospace;
+}
+.cabezera__navegacion ul li::before{
+    content:"";
+    height: 3px;
+    width: 0%;
+    background-color: white;
+    position: absolute;
+    left: 0;
+    bottom: -12px;
+    transition: 0.4s ease-out;
+
+}
+.cabezera__navegacion ul li:hover::before{
+width: 100%;
 }
 .cabezera__navegacion li a:hover
 {
@@ -121,6 +136,29 @@
     color: #FFFF;
     text-decoration:solid;
     font-family: 'Inconsolata', monospace;
+}
+.main__presentation__title span{
+    font-size: 100px;
+    
+}
+.main__presentation__title span:hover{
+    animation: saltar 1s infinite;
+    display:inline-block;
+    transform: translateY(0);
+}
+@keyframes saltar{
+    0%{
+        transform: translateY(0px);
+    }
+    10%{
+        transform: translateY(-10px);
+    }
+    50%{
+        transform: translateY(100px);
+    }
+    80%{
+        transform: translateY(110px);
+    }
 }
 .main__contenido{
     display: flex;
