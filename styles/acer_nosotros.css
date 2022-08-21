@@ -1,0 +1,62 @@
+.section_content {
+    height: 600px;
+}
+.section_content{
+    display: flex;
+    justify-content: space-between;
+}
+.section_content_img{
+    padding-left: 50px;
+    padding-top: 30px;
+    height: 400px;
+    width: 400px;
+}
+.section_content_img img{
+    height: 100%;
+    width: 100%;
+}
+.section_content_info{
+    padding-top: 20px;
+    padding-left: 50px;
+    height: 500px;
+    width: 500px;
+}
+.section_content_info h1:hover{
+        color: aqua;
+}
+/*Footer*/
+.contactanos{
+    height: 70px;
+    background-color: rgb(7, 5, 50);
+    position: sticky;
+    bottom: 0px;
+}
+.contactanos{
+    display: flex;
+    justify-content: end;
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    padding-right: 30px;
+    align-items: center;
+}
+.contactanos h1{
+    color: #f7f7f7f7;
+}
+.whatsapp__img{
+    width: 40px;
+    height: 40px;
+}
+.whatsapp__img img{
+    width: 100%;
+    height: 100%;
+}
+.facebook__img{
+    width: 40px;
+    height: 40px;
+}
+.facebook__img img{
+    width: 100%;
+    height: 100%;
+}

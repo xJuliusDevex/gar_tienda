@@ -1,0 +1,75 @@
+
+*{
+    padding: 0;
+    margin: 0;
+}
+.cabezera{
+    background-color: #4A56CA;
+    position: sticky;
+    top: 0px;
+} 
+.cabezera__navegacion{
+    display: flex;
+    height: 60px;
+    justify-content: space-around;
+    align-items: center;
+}
+.logo{
+    width: 40px;
+    height: 40px;
+    position: relative;
+    right: 120px;
+}
+.logo_img{
+    width: 100%;
+    height: 100%;
+}
+.cabezera__navegacion a{
+    text-decoration:none;
+    color: aliceblue;
+    text-align: center;
+    font-family: 'Inconsolata', monospace;
+    font-size: 12px;
+}
+.cabezera__navegacion a:hover{
+    color:black;
+}
+.cabezera__navegacion ul{
+    list-style-type:none;
+}
+.cabezera__navegacion ul a{
+    display: block;
+    padding: 17px 20px;
+
+}
+.cabezera__navegacion ul li ul{
+    display: flex;
+    flex-direction: column;
+}
+.cabezera__navegacion li{
+    display: inline-block;
+}
+
+.producto_tri_img{
+    width: 100%;
+    height: 100%;
+}
+.cabezera__navegacion ul li ul{
+    position: absolute;
+}
+.cabezera__navegacion ul li ul li{
+    display: block;
+}
+.cabezera__navegacion ul li ul{
+    display: none;
+}
+.cabezera__navegacion ul li:hover{
+    background-color: #2d3fe1;
+}
+.cabezera__navegacion ul li:hover > ul{
+    display: block;
+}
+.cabezera__navegacion ul img{
+    display: none;
+}
+

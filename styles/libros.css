@@ -1,0 +1,64 @@
+.main_categorias h1{
+    display: flex;
+    justify-content: center;
+}
+.main_categorias_Ingles{
+    display: flex;
+    flex-wrap:wrap;
+}
+.main_categorias_Ingles1{
+
+    display:inline-block;
+    flex-direction: row;
+    padding: 30px 30px 30px 30px;
+}
+
+.main_categorias_Ingles1_img{
+    width: 200px;   
+    height: 200px;
+}
+.main_categorias_Ingles1_img img{
+    width: 100%;
+    height: 100%;
+}
+.main_categorias_Ingles1_estado{
+    width: 20px;
+    height: 100px;
+    background-color: darkblue;
+}
+/*Footer*/
+.contactanos{
+    height: 70px;
+    background-color: rgb(7, 5, 50);
+    position: sticky;
+    bottom: 0px;
+}
+.contactanos{
+    display: flex;
+    justify-content: end;
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    padding-right: 30px;
+    align-items: center;
+}
+.contactanos h1{
+    color: #f7f7f7f7;
+}
+.whatsapp__img{
+    width: 40px;
+    height: 40px;
+}
+.whatsapp__img img{
+    width: 100%;
+    height: 100%;
+}
+.facebook__img{
+    width: 40px;
+    height: 40px;
+}
+.facebook__img img{
+    width: 100%;
+    height: 100%;
+}
