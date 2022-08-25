@@ -1,0 +1,100 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    
+}
+/*General*/
+.contenedor{
+    display:grid;
+    grid-template-areas: "cabezera"
+                        "main"
+                        "footer";
+    grid-template-columns:100%;
+    grid-template-rows: 3.5rem auto 0.9fr;
+}
+.cabezera{
+    grid-area: cabezera;
+    position: sticky;
+    top: 0px;
+}
+.cabezera__navegacion{
+    background-color: #120727;
+}
+.sub_menu{
+    background-color: white;
+    margin-right: 1rem;
+}
+.cabezera__navegacion--div{
+    padding-right: 2rem;
+}
+.imagen{
+    padding-left: 1rem;
+}
+.cabezera__navegacion li
+{
+    display: inline;
+}
+.cabezera__navegacion li a{
+    color:#FFFF;
+    font-family: 'Inconsolata', monospace;
+}
+.cabezera__navegacion a{
+    text-decoration: none;
+}
+.cabezera__navegacion li a:hover
+{
+    color: rgb(26, 105, 189);
+}
+
+.cabezera__navegacion--ul--li--ul{
+    background-color: #120727;
+}
+
+
+
+.cabezera__navegacion ul li:hover > ul{
+    display: block;
+    font-family: 'Inconsolata', monospace;
+}
+.main{
+    grid-area: main;
+}
+.main__info{
+    height: 23rem;
+}
+.main{
+    background-image:url(../img/portada/tienda.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
+    height: 100%;
+}
+.main__info{
+    margin-top: 10rem;
+}
+.main__presentation h1{
+    font-size: 3.5rem;
+    color: #FFFF;
+    text-decoration:solid;
+    font-family: 'Inconsolata', monospace;
+}
+
+.main__contenido p{
+    font-size: 1.5rem;
+    color: #FFFF;
+    text-decoration:solid;
+    font-family: 'Inconsolata', monospace;
+}
+.footer
+{
+    grid-area: footer;
+    background-color: #120727;
+    position: sticky;
+    bottom: 0px;
+    color: #FFFF;
+}
+.info{
+    margin-right: 1rem;
+}
+
+
