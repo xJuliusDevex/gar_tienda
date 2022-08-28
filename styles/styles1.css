@@ -48,6 +48,10 @@
 .cabezera__navegacion a{
     text-decoration: none;
 }
+.cabezera__navegacion ul li
+{
+    position: relative;
+}
 .cabezera__navegacion li a:hover
 {
     color: rgb(139, 175, 214);
@@ -203,4 +207,8 @@
     text-decoration:solid;
 
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+}
+/*-----------------------------Libros-----------------------------------*/
+.student_book article{
+    position: inherit;
 }
