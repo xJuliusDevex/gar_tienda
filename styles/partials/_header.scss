@@ -16,7 +16,7 @@
         }
         .imagen{
             margin-left: 1rem;
-            font-family: 'Dancing Script', cursive;
+            font-family: $Dancing;
             color: $color_text;
             text-decoration: none;
             font-size: 1.5rem;
@@ -26,7 +26,7 @@
         }
         li a{
             color:$color_text;
-            font-family:'Inconsolata', monospace;
+            font-family:$Inconsolata;
         }
         ul li{
             position: relative;

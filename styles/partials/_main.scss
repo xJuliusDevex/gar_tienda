@@ -11,13 +11,13 @@
         height: 100%;
     }
     &__presentation h1{
-        font-size: 3.5rem;
+        font-size: $title;
         color:$color_text;
         text-decoration: solid;
         font-family: 'Inconsolata',monospace;
     }
     &__contenido p{
-        font-size: 1.5rem;
+        font-size: $parafo;
         color:$color_text;
         text-decoration: solid;
         font-family: 'Inconsolata',monospace;
