@@ -1,9 +1,3 @@
-/*%btn_Card{
-    text-align: center;
-    //background-color: $color_button;
-    font-size:$size_subtitle;
-    font-family: $font_dacing;
-}*/
 * {
   padding: 0px;
   margin: 0px;
@@ -18,12 +12,11 @@
 
 .cabezera {
   grid-area: cabezera;
-  position: -webkit-sticky;
   position: sticky;
   top: 0px;
 }
 .cabezera__navegacion {
-  background-color: #FFFFFF;
+  background-color: #120727;
 }
 .cabezera__navegacion .sub_menu {
   background-color: #FFFFFF;
@@ -37,10 +30,10 @@
 }
 .cabezera__navegacion .imagen {
   margin-left: 1rem;
-  font-family: '"Inconsolata", monospace';
+  font-family: "Dancing Script", cursive;
   color: #FFFFFF;
   text-decoration: none;
-  font-size: 1.9rem;
+  font-size: 1.5rem;
 }
 .cabezera__navegacion .imagen:hover {
   color: #FFFFFF;
@@ -97,15 +90,13 @@
 .main__presentation h1 {
   font-size: 3.5rem;
   color: #FFFFFF;
-  -webkit-text-decoration: solid;
-          text-decoration: solid;
+  text-decoration: solid;
   font-family: "Inconsolata", monospace;
 }
 .main__contenido p {
   font-size: 1.5rem;
   color: #FFFFFF;
-  -webkit-text-decoration: solid;
-          text-decoration: solid;
+  text-decoration: solid;
   font-family: "Inconsolata", monospace;
 }
 
@@ -113,10 +104,11 @@
   grid-area: footer;
   background-color: #120727;
   color: #FFFFFF;
-  position: -webkit-sticky;
   position: sticky;
   bottom: 0px;
 }
 .footer .info {
   margin-right: 1rem;
-}/*# sourceMappingURL=styles1.css.map */
+}
+
+/*# sourceMappingURL=style1.css.map */

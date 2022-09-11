@@ -3,7 +3,7 @@
     position: sticky;
     top: 0px;
     &__navegacion{
-        background-color: $color_nav;
+        background-color: map-get($color,color_text);
         .sub_menu{
             background-color: $color_text;
             margin-right: 1rem;
@@ -16,10 +16,10 @@
         }
         .imagen{
             margin-left: 1rem;
-            font-family: $Dancing;
+            font-family: map-get($font,Inconsolata);
             color: $color_text;
             text-decoration: none;
-            font-size: 1.5rem;
+            font-size: $subtitle;
             &:hover{
                 color: $color_text;
             }
