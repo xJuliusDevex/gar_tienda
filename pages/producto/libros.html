@@ -4,18 +4,20 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../../styles/styles.css">
+    <!----------------------------Boostrap--------------------------->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+    <!----------------------------tipos de letras --------------------------->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inconsolata&display=swap" rel="stylesheet">
-    <script src="https://kit.fontawesome.com/ddc011add7.js" crossorigin="anonymous"></script>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inconsolata&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Source+Code+Pro&display=swap" rel="stylesheet">
+    <!----------------------------Style --------------------------->
+    <link rel="stylesheet" href="../../styles/styles1.css">
     <title>meraki</title>
 </head>
 <body class="contenedor">
     <header class="cabezera">
+<<<<<<< HEAD
         <nav class="cabezera__navegacion">
             <input class="input"type="checkbox" id="check">
             <label for="check" class="checkbtn"><i class="fas fa-bars"></i></label>
@@ -30,6 +32,41 @@
                 <li><a href="../../pages/ofertas.html">OFERTAS</a></li>
                 <li><a href="../../pages/contactanos.html">CONTACTANOS</a></li>
                 <li><a href="../../pages/acer_nosotros.html">ACERCA DE NOSOTROS</a></li>
+=======
+        <nav class="navbar navbar-expand-lg cabezera__navegacion">
+            <div class="container-fluid">
+                <a class="navbar-brand imagen" href="../../index.html">
+                    <img src="../../img/icon/icon.png" alt="icono" width="30" height="30" class="d-inline-block align-top" >
+                        MERAKI
+                    </a>
+              <button class="navbar-toggler sub_menu" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse justify-content-end navegacion" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link " aria-current="page" href="../../index.html">INICIO</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      PRODUCTOS
+                    </a>
+                    <ul class="dropdown-menu cabezera__navegacion--ul--li--ul">
+                      <li><a class="dropdown-item" href="./libros.html">LIBROS</a></li>
+                      <li><a class="dropdown-item" href="./utiles_escolares.html">UTILES ESCOLARES</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="../ofertas.html">OFERTAS</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="../contactanos.html">CONTACTANOS</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="../acer_nosotros.html">ACERCA DE NOSOTROS</a>
+                  </li>
+                  
+>>>>>>> sass_2
                 </ul>
               </div>
             </div>
@@ -37,6 +74,7 @@
 
     </header>
     <main class="main">
+<<<<<<< HEAD
         <section class="main_categorias"> 
             <h1>Libros en ingles</h1>
         <section class="main_categorias_Ingles">
@@ -44,56 +82,564 @@
                 <div class="main_categorias_Ingles_1_img"><img src="../../img/productos/libros/america_ingles.jpg" alt="falta imagen"></div>
                 <div class="main_categorias_Ingles_1_estado"><p>estado</p></div>
                 <div class="main_categorias_Ingles_1_informacion"></p>texto</p></div>
+=======
+        <section class="main_categorias">
+
+            <article class="card card_student">
+                <div class="row">
+                  <div class="col card_student_img">
+                    <img src="../../img/productos/libros/student_book/student1.jpg" class="img-fluid rounded-start" alt="student1">
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <h5 class="card-title">Student Book1</h5>
+                      <h6 class="card-subtitle">categoria:ingles</h6>
+
+                      <div class="row">
+                        <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseWidthExample" aria-expanded="false" aria-controls="collapseWidthExample">
+                            ORIGINAL
+                          </button>
+                          <div>
+                            <div class="collapse collapse-horizontal" id="collapseWidthExample">
+                              <div class="card card-body" style="width: 300px;">
+                                PRECIO:112S/.
+                              </div>
+                            </div>
+                          </div>
+                          <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseWidthExample1" aria-expanded="false" aria-controls="collapseWidthExample">
+                            FULL COLOR
+                          </button>
+                          <div >
+                            <div class="collapse collapse-horizontal" id="collapseWidthExample1">
+                              <div class="card card-body" style="width: 300px;">
+                                PRECIO:56S/.
+                              </div>
+                            </div>
+                          </div>
+                          <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseWidthExample2" aria-expanded="false" aria-controls="collapseWidthExample">
+                            COLOR
+                          </button>
+                          <div >
+                            <div class="collapse collapse-horizontal" id="collapseWidthExample2">
+                              <div class="card card-body" style="width: 300px;">
+                                PRECIO:20/.
+                              </div>
+                            </div>
+                          </div>
+                          <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseWidthExample3" aria-expanded="false" aria-controls="collapseWidthExample">
+                            BLANCO/NEGRO
+                          </button>
+                          <div >
+                        <div class="collapse collapse-horizontal" id="collapseWidthExample3">
+                          <div class="card card-body" style="width: 300px;">
+                            PRECIO:7S/.
+                          </div>
+                        </div>
+                      </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+>>>>>>> sass_2
             </article>
-            <article class="main_categorias_Ingles_1">
-                <div class="main_categorias_Ingles_1_img"><img src="../../img/productos/libros/america_ingles.jpg" alt="falta imagen"></div>
-                <div class="main_categorias_Ingles_1_estado"><p>estado</p></div>
-                <div class="main_categorias_Ingles_1_informacion"></p>texto</p></div>
+
+            <article class="card mb-3" style="max-width: 540px;">
+                <div class="row g-0">
+                  <div class="col-md-4">
+                    <img src="../../img/productos/libros/student_book/student2.jpg" class="img-fluid rounded-start" alt="...">
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <h5 class="card-title">Student Book1</h5>
+                      <h6 class="card-subtitle">categoria:ingles</h6>
+
+                      <div class="row">
+                        <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseWidthExample" aria-expanded="false" aria-controls="collapseWidthExample">
+                            ORIGINAL
+                          </button>
+                          <div>
+                            <div class="collapse collapse-horizontal" id="collapseWidthExample">
+                              <div class="card card-body" style="width: 300px;">
+                                PRECIO:112S/.
+                              </div>
+                            </div>
+                          </div>
+                          <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseWidthExample1" aria-expanded="false" aria-controls="collapseWidthExample">
+                            FULL COLOR
+                          </button>
+                          <div >
+                            <div class="collapse collapse-horizontal" id="collapseWidthExample1">
+                              <div class="card card-body" style="width: 300px;">
+                                PRECIO:56S/.
+                              </div>
+                            </div>
+                          </div>
+                          <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseWidthExample2" aria-expanded="false" aria-controls="collapseWidthExample">
+                            COLOR
+                          </button>
+                          <div >
+                            <div class="collapse collapse-horizontal" id="collapseWidthExample2">
+                              <div class="card card-body" style="width: 300px;">
+                                PRECIO:20/.
+                              </div>
+                            </div>
+                          </div>
+                          <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseWidthExample3" aria-expanded="false" aria-controls="collapseWidthExample">
+                            BLANCO/NEGRO
+                          </button>
+                          <div >
+                        <div class="collapse collapse-horizontal" id="collapseWidthExample3">
+                          <div class="card card-body" style="width: 300px;">
+                            PRECIO:7S/.
+                          </div>
+                        </div>
+                      </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
             </article>
-            <article class="main_categorias_Ingles_1">
-                <div class="main_categorias_Ingles_1_img"><img src="../../img/productos/libros/america_ingles.jpg" alt="falta imagen"></div>
-                <div class="main_categorias_Ingles_1_estado"><p>estado</p></div>
-                <div class="main_categorias_Ingles_1_informacion"></p>texto</p></div>
+
+            <article class="card mb-3" style="max-width: 540px;">
+                <div class="row g-0">
+                  <div class="col-md-4">
+                    <img src="../../img/productos/libros/student_book/student3.jpg" class="img-fluid rounded-start" alt="...">
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <h5 class="card-title">Student Book1</h5>
+                      <h6 class="card-subtitle">categoria:ingles</h6>
+
+                      <div class="row">
+                        <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseWidthExample" aria-expanded="false" aria-controls="collapseWidthExample">
+                            ORIGINAL
+                          </button>
+                          <div>
+                            <div class="collapse collapse-horizontal" id="collapseWidthExample">
+                              <div class="card card-body" style="width: 300px;">
+                                PRECIO:112S/.
+                              </div>
+                            </div>
+                          </div>
+                          <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseWidthExample1" aria-expanded="false" aria-controls="collapseWidthExample">
+                            FULL COLOR
+                          </button>
+                          <div >
+                            <div class="collapse collapse-horizontal" id="collapseWidthExample1">
+                              <div class="card card-body" style="width: 300px;">
+                                PRECIO:56S/.
+                              </div>
+                            </div>
+                          </div>
+                          <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseWidthExample2" aria-expanded="false" aria-controls="collapseWidthExample">
+                            COLOR
+                          </button>
+                          <div >
+                            <div class="collapse collapse-horizontal" id="collapseWidthExample2">
+                              <div class="card card-body" style="width: 300px;">
+                                PRECIO:20/.
+                              </div>
+                            </div>
+                          </div>
+                          <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseWidthExample3" aria-expanded="false" aria-controls="collapseWidthExample">
+                            BLANCO/NEGRO
+                          </button>
+                          <div >
+                        <div class="collapse collapse-horizontal" id="collapseWidthExample3">
+                          <div class="card card-body" style="width: 300px;">
+                            PRECIO:7S/.
+                          </div>
+                        </div>
+                      </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
             </article>
-            <article class="main_categorias_Ingles_1">
-                <div class="main_categorias_Ingles_1_img"><img src="../../img/productos/libros/america_ingles.jpg" alt="falta imagen"></div>
-                <div class="main_categorias_Ingles_1_estado"><p>estado</p></div>
-                <div class="main_categorias_Ingles_1_informacion"></p>texto</p></div>
+
+            <article class="card mb-3" style="max-width: 540px;">
+                <div class="row g-0">
+                  <div class="col-md-4">
+                    <img src="../../img/productos/libros/student_book/student4.jpg" class="img-fluid rounded-start" alt="...">
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <h5 class="card-title">Student Book1</h5>
+                      <h6 class="card-subtitle">categoria:ingles</h6>
+
+                      <div class="row">
+                        <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseWidthExample" aria-expanded="false" aria-controls="collapseWidthExample">
+                            ORIGINAL
+                          </button>
+                          <div>
+                            <div class="collapse collapse-horizontal" id="collapseWidthExample">
+                              <div class="card card-body" style="width: 300px;">
+                                PRECIO:112S/.
+                              </div>
+                            </div>
+                          </div>
+                          <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseWidthExample1" aria-expanded="false" aria-controls="collapseWidthExample">
+                            FULL COLOR
+                          </button>
+                          <div >
+                            <div class="collapse collapse-horizontal" id="collapseWidthExample1">
+                              <div class="card card-body" style="width: 300px;">
+                                PRECIO:56S/.
+                              </div>
+                            </div>
+                          </div>
+                          <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseWidthExample2" aria-expanded="false" aria-controls="collapseWidthExample">
+                            COLOR
+                          </button>
+                          <div >
+                            <div class="collapse collapse-horizontal" id="collapseWidthExample2">
+                              <div class="card card-body" style="width: 300px;">
+                                PRECIO:20/.
+                              </div>
+                            </div>
+                          </div>
+                          <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseWidthExample3" aria-expanded="false" aria-controls="collapseWidthExample">
+                            BLANCO/NEGRO
+                          </button>
+                          <div >
+                        <div class="collapse collapse-horizontal" id="collapseWidthExample3">
+                          <div class="card card-body" style="width: 300px;">
+                            PRECIO:7S/.
+                          </div>
+                        </div>
+                      </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
             </article>
-            <article class="main_categorias_Ingles_1">
-                <div class="main_categorias_Ingles_1_img"><img src="../../img/productos/libros/america_ingles.jpg" alt="falta imagen"></div>
-                <div class="main_categorias_Ingles_1_estado"><p>estado</p></div>
-                <div class="main_categorias_Ingles_1_informacion"></p>texto</p></div>
+
+            <article class="card mb-3" style="max-width: 540px;">
+                <div class="row g-0">
+                  <div class="col-md-4">
+                    <img src="../../img/productos/libros/student_book/everybody1.jpg" class="img-fluid rounded-start" alt="...">
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <h5 class="card-title">Student Book1</h5>
+                      <h6 class="card-subtitle">categoria:ingles</h6>
+
+                      <div class="row">
+                        <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseWidthExample" aria-expanded="false" aria-controls="collapseWidthExample">
+                            ORIGINAL
+                          </button>
+                          <div>
+                            <div class="collapse collapse-horizontal" id="collapseWidthExample">
+                              <div class="card card-body" style="width: 300px;">
+                                PRECIO:112S/.
+                              </div>
+                            </div>
+                          </div>
+                          <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseWidthExample1" aria-expanded="false" aria-controls="collapseWidthExample">
+                            FULL COLOR
+                          </button>
+                          <div >
+                            <div class="collapse collapse-horizontal" id="collapseWidthExample1">
+                              <div class="card card-body" style="width: 300px;">
+                                PRECIO:56S/.
+                              </div>
+                            </div>
+                          </div>
+                          <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseWidthExample3" aria-expanded="false" aria-controls="collapseWidthExample">
+                            BLANCO/NEGRO
+                          </button>
+                          <div >
+                        <div class="collapse collapse-horizontal" id="collapseWidthExample3">
+                          <div class="card card-body" style="width: 300px;">
+                            PRECIO:7S/.
+                          </div>
+                        </div>
+                      </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
             </article>
+
+            <article class="card mb-3" style="max-width: 540px;">
+                <div class="row g-0">
+                  <div class="col-md-4">
+                    <img src="../../img/productos/libros/student_book/everybody2.jpg" class="img-fluid rounded-start" alt="...">
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <h5 class="card-title">Student Book1</h5>
+                      <h6 class="card-subtitle">categoria:ingles</h6>
+
+                      <div class="row">
+                        <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseWidthExample" aria-expanded="false" aria-controls="collapseWidthExample">
+                            ORIGINAL
+                          </button>
+                          <div>
+                            <div class="collapse collapse-horizontal" id="collapseWidthExample">
+                              <div class="card card-body" style="width: 300px;">
+                                PRECIO:112S/.
+                              </div>
+                            </div>
+                          </div>
+                          <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseWidthExample1" aria-expanded="false" aria-controls="collapseWidthExample">
+                            FULL COLOR
+                          </button>
+                          <div >
+                            <div class="collapse collapse-horizontal" id="collapseWidthExample1">
+                              <div class="card card-body" style="width: 300px;">
+                                PRECIO:56S/.
+                              </div>
+                            </div>
+                          </div>
+                          <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseWidthExample3" aria-expanded="false" aria-controls="collapseWidthExample">
+                            BLANCO/NEGRO
+                          </button>
+                          <div >
+                        <div class="collapse collapse-horizontal" id="collapseWidthExample3">
+                          <div class="card card-body" style="width: 300px;">
+                            PRECIO:7S/.
+                          </div>
+                        </div>
+                      </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            </article>
+            <article class="card mb-3" style="max-width: 540px;">
+                <div class="row g-0">
+                  <div class="col-md-4">
+                    <img src="../../img/productos/libros/student_book/everybody3.jpg" class="img-fluid rounded-start" alt="...">
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <h5 class="card-title">Student Book1</h5>
+                      <h6 class="card-subtitle">categoria:ingles</h6>
+
+                      <div class="row">
+                        <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseWidthExample" aria-expanded="false" aria-controls="collapseWidthExample">
+                            ORIGINAL
+                          </button>
+                          <div>
+                            <div class="collapse collapse-horizontal" id="collapseWidthExample">
+                              <div class="card card-body" style="width: 300px;">
+                                PRECIO:112S/.
+                              </div>
+                            </div>
+                          </div>
+                          <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseWidthExample1" aria-expanded="false" aria-controls="collapseWidthExample">
+                            FULL COLOR
+                          </button>
+                          <div >
+                            <div class="collapse collapse-horizontal" id="collapseWidthExample1">
+                              <div class="card card-body" style="width: 300px;">
+                                PRECIO:56S/.
+                              </div>
+                            </div>
+                          </div>
+                          <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseWidthExample3" aria-expanded="false" aria-controls="collapseWidthExample">
+                            BLANCO/NEGRO
+                          </button>
+                          <div >
+                        <div class="collapse collapse-horizontal" id="collapseWidthExample3">
+                          <div class="card card-body" style="width: 300px;">
+                            PRECIO:7S/.
+                          </div>
+                        </div>
+                      </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            </article>
+
+            <article class="card mb-3" style="max-width: 540px;">
+                <div class="row g-0">
+                  <div class="col-md-4">
+                    <img src="../../img/productos/libros/student_book/everybody4.jpg" class="img-fluid rounded-start" alt="...">
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <h5 class="card-title">Student Book1</h5>
+                      <h6 class="card-subtitle">categoria:ingles</h6>
+
+                      <div class="row">
+                        <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseWidthExample" aria-expanded="false" aria-controls="collapseWidthExample">
+                            ORIGINAL
+                          </button>
+                          <div>
+                            <div class="collapse collapse-horizontal" id="collapseWidthExample">
+                              <div class="card card-body" style="width: 300px;">
+                                PRECIO:112S/.
+                              </div>
+                            </div>
+                          </div>
+                          <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseWidthExample1" aria-expanded="false" aria-controls="collapseWidthExample">
+                            FULL COLOR
+                          </button>
+                          <div >
+                            <div class="collapse collapse-horizontal" id="collapseWidthExample1">
+                              <div class="card card-body" style="width: 300px;">
+                                PRECIO:56S/.
+                              </div>
+                            </div>
+                          </div>
+                          <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseWidthExample3" aria-expanded="false" aria-controls="collapseWidthExample">
+                            BLANCO/NEGRO
+                          </button>
+                          <div >
+                        <div class="collapse collapse-horizontal" id="collapseWidthExample3">
+                          <div class="card card-body" style="width: 300px;">
+                            PRECIO:7S/.
+                          </div>
+                        </div>
+                      </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            </article>
+
+            <article class="card mb-3" style="max-width: 540px;">
+                <div class="row g-0">
+                  <div class="col-md-4">
+                    <img src="../../img/productos/libros/student_book/stretch1.jpg" class="img-fluid rounded-start" alt="...">
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <h5 class="card-title">Student Book1</h5>
+                      <h6 class="card-subtitle">categoria:ingles</h6>
+
+                      <div class="row">
+                        <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseWidthExample" aria-expanded="false" aria-controls="collapseWidthExample">
+                            ORIGINAL
+                          </button>
+                          <div>
+                            <div class="collapse collapse-horizontal" id="collapseWidthExample">
+                              <div class="card card-body" style="width: 300px;">
+                                PRECIO:112S/.
+                              </div>
+                            </div>
+                          </div>
+                          <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseWidthExample1" aria-expanded="false" aria-controls="collapseWidthExample">
+                            FULL COLOR
+                          </button>
+                          <div >
+                            <div class="collapse collapse-horizontal" id="collapseWidthExample1">
+                              <div class="card card-body" style="width: 300px;">
+                                PRECIO:56S/.
+                              </div>
+                            </div>
+                          </div>
+                          <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseWidthExample3" aria-expanded="false" aria-controls="collapseWidthExample">
+                            BLANCO/NEGRO
+                          </button>
+                          <div >
+                        <div class="collapse collapse-horizontal" id="collapseWidthExample3">
+                          <div class="card card-body" style="width: 300px;">
+                            PRECIO:7S/.
+                          </div>
+                        </div>
+                      </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            </article>
+
+            <article class="card mb-3" style="max-width: 540px;">
+                <div class="row g-0">
+                  <div class="col-md-4">
+                    <img src="../../img/productos/libros/otros_paises/bem-vindo_color.jpg" class="img-fluid rounded-start" alt="...">
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <h5 class="card-title">Student Book1</h5>
+                      <h6 class="card-subtitle">categoria:ingles</h6>
+
+                      <div class="row">
+                        <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseWidthExample" aria-expanded="false" aria-controls="collapseWidthExample">
+                            ORIGINAL
+                          </button>
+                          <div>
+                            <div class="collapse collapse-horizontal" id="collapseWidthExample">
+                              <div class="card card-body" style="width: 300px;">
+                                PRECIO:112S/.
+                              </div>
+                            </div>
+                          </div>
+                          <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseWidthExample1" aria-expanded="false" aria-controls="collapseWidthExample">
+                            FULL COLOR
+                          </button>
+                          <div >
+                            <div class="collapse collapse-horizontal" id="collapseWidthExample1">
+                              <div class="card card-body" style="width: 300px;">
+                                PRECIO:56S/.
+                              </div>
+                            </div>
+                          </div>
+                          <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseWidthExample3" aria-expanded="false" aria-controls="collapseWidthExample">
+                            BLANCO/NEGRO
+                          </button>
+                          <div >
+                        <div class="collapse collapse-horizontal" id="collapseWidthExample3">
+                          <div class="card card-body" style="width: 300px;">
+                            PRECIO:7S/.
+                          </div>
+                        </div>
+                      </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            </article>
+
         </section>
-        <h1>Libros en portugues</h1>
-        <section class="main_categorias_Ingles">
-            <article class="main_categorias_Ingles_1">
-                <div class="main_categorias_Ingles_1_img"><img src="../../img/productos/libros/america_ingles.jpg" alt="falta imagen"></div>
-                <div class="main_categorias_Ingles_1_estado"><p>estado</p></div>
-                <div class="main_categorias_Ingles_1_informacion"></p>texto</p></div>
+        <section class="row flex-wrap worbook justify-content-around">
+            <article class="card" style="width: 15rem; height: 27rem;">
+                <div class="card-img-top">
+                    <img src="../../img/productos/libros/workbook/student1.jpg"  alt="..." style="width:100%;height:100%;">
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title">Workbook Student 1</h5>
+                  <h6 class="card-subtitle">categoria:ingles</h6>
+                  <h6>Precio:7</h6>
+                </div>
             </article>
-            <article class="main_categorias_Ingles_1">
-                <div class="main_categorias_Ingles_1_img"><img src="../../img/productos/libros/america_ingles.jpg" alt="falta imagen"></div>
-                <div class="main_categorias_Ingles_1_estado"><p>estado</p></div>
-                <div class="main_categorias_Ingles_1_informacion"></p>texto</p></div>
+            
+            <article class="card" style="width: 15rem; height: 27rem;">
+                <div class="card-img-top">
+                    <img src="../../img/productos/libros/workbook/student2.jpg"  alt="..." style="width:100%;height:100%;">
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title">Workbook Student 2</h5>
+                  <h6 class="card-subtitle">categoria:ingles</h6>
+                  <h6>Precio:7</h6>
+                </div>
             </article>
-            <article class="main_categorias_Ingles_1">
-                <div class="main_categorias_Ingles_1_img"><img src="../../img/productos/libros/america_ingles.jpg" alt="falta imagen"></div>
-                <div class="main_categorias_Ingles_1_estado"><p>estado</p></div>
-                <div class="main_categorias_Ingles_1_informacion"></p>texto</p></div>
+
+            <article class="card" style="width: 15rem; height: 27rem;">
+                <div class="card-img-top">
+                    <img src="../../img/productos/libros/workbook/student3.jpg"  alt="..." style="width:100%;height:100%;">
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title">Workbook Student 3</h5>
+                  <h6 class="card-subtitle">categoria:ingles</h6>
+                  <h6>Precio:7</h6>
+                </div>
             </article>
-            <article class="main_categorias_Ingles_1">
-                <div class="main_categorias_Ingles_1_img"><img src="../../img/productos/libros/america_ingles.jpg" alt="falta imagen"></div>
-                <div class="main_categorias_Ingles_1_estado"><p>estado</p></div>
-                <div class="main_categorias_Ingles_1_informacion"></p>texto</p></div>
+
+            <article class="card" style="width: 16rem; height: 27rem; ">
+                <div class="card-img-top text-center d-flex justify-content-center">
+                    <img src="../../img/productos/libros/workbook/student4.jpg"  alt="..." style="width:70%;height:70%;">
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title">Workbook Student 4</h5>
+                  <h6 class="card-subtitle">categoria:ingles</h6>
+                  <h6>Precio:7</h6>
+                </div>
             </article>
-            <article class="main_categorias_Ingles_1">
-                <div class="main_categorias_Ingles_1_img"><img src="../../img/productos/libros/america_ingles.jpg" alt="falta imagen"></div>
-                <div class="main_categorias_Ingles_1_estado"><p>estado</p></div>
-                <div class="main_categorias_Ingles_1_informacion"></p>texto</p></div>
-            </article>
-        </section>
         </section>
     </main>
     <footer class="footer">

@@ -1,0 +1,11 @@
+.footer{
+    grid-area: footer;
+    background-color:$color_nav;
+    color:$color_text;
+    position: sticky;
+    bottom: 0px;
+    .info{
+        margin-right: 1rem;
+    }
+
+}
