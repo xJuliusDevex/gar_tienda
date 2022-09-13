@@ -1,3 +1,7 @@
+//variables//
+@import"./partials/variables/colors";
+@import"./partials/variables/font-family";
+@import "./partials/variables/zise";
 //sass2//
 @import "./partials/maps";
 @import "./partials/extends";
@@ -5,9 +9,7 @@
 //sass//
 @import "./partials/root";
 @import"./partials/body";
-@import"./partials/variables/colors";
-@import"./partials/variables/font-family";
-@import "./partials/variables/zise";
+
 @import "./partials/header";
 @import "./partials/main";
 @import"./partials/footer";

@@ -3,7 +3,7 @@
     position: sticky;
     top: 0px;
     &__navegacion{
-        background-color: map-get($color,color_text);
+        background-color: map-get($color,color_nav);
         .sub_menu{
             background-color: $color_text;
             margin-right: 1rem;
@@ -15,11 +15,7 @@
             text-decoration: none;
         }
         .imagen{
-            margin-left: 1rem;
-            font-family: map-get($font,Inconsolata);
-            color: $color_text;
-            text-decoration: none;
-            font-size: $subtitle;
+            @extend .imagen;
             &:hover{
                 color: $color_text;
             }
@@ -50,14 +46,14 @@
             {
                 .navegacion{
                     ul li::before{
-                        content:"";
-                        height: 2px;
-                        width: 0%;
-                        background-color:$color_text;
                         position:absolute;
                         left: 0;
                         bottom: 0;
                         transition: 0.4s ease-out;
+                        content:"";
+                        height: 2px;
+                        width: 0%;
+                        @include nave_media($color_hover);
                     } 
                     ul li:hover::before{
                         width: 100%;

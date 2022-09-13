@@ -1,0 +1,11 @@
+@mixin nave_media($color:0) {
+
+    @if $color != 0 {
+        background-color:$color_text;
+        
+      }
+      @else{
+        background-color: aqua;
+    }
+}
+  
