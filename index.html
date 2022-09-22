@@ -14,6 +14,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Source+Code+Pro&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=IBM+Plex+Sans:ital,wght@1,200&family=Source+Code+Pro&display=swap" rel="stylesheet">
     <!----------------------------Style --------------------------->
     <link rel="stylesheet" href="./styles/styles1.css">
     <title>meraki</title>
@@ -22,12 +25,9 @@
     <header class="cabezera">
         <nav class="navbar navbar-expand-lg cabezera__navegacion">
             <div class="container-fluid ">
-                <a class="navbar-brand imagen" href="./index.html">
-                    <img src="./img/icon/icon.png" alt="icono" width="30" height="30" class="d-inline-block align-top" >
-                        MERAKI
-                    </a>
-              <button class="navbar-toggler sub_menu" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+                <a class="navbar-brand imagen" href="./index.html"><img src="./img/icon/icon.png" alt="icono" width="30" height="30" class="d-inline-block align-top" >MERAKI</a>
+              <button class="navbar-toggler sub_menu " type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon sub_menu-span"></span>
               </button>
               <div class="collapse navbar-collapse justify-content-end navegacion" id="navbarNavDropdown">
                     <ul class="navbar-nav">
@@ -48,14 +48,22 @@
     </header>
     
     <main class="main">
-    <section class="container text-center main__info ">
-        <div class="main__presentation">
-            <h1>Bievenido a Meraki</h1>
+        <section class="container-fluid  main__info ">
+        
+        <div class="row justify-content-center align-content-center main__contenid">
+            <div class="col text-center ">
+                <div class="main__presentation">
+                    <h1 class="display-1">Bievenido a Meraki</h1>
+                </div>
+                <div class="col main__contenido">
+                    <p class="display-3">Aqui vas a descubrir las mejores ofertas y productos</p>
+                    <p class="display-3 align-content-center">que nosotros ofrecemos</p>
+                </div>
+            </div>
         </div>
-        <div class="main__contenido">
-            <p>Aqui vas a descubrir las mejores ofertas y productos</p>
-        </div>
-    </section>
+        
+        
+        </section>
 </main>
 <!--Me falta poner mas cosas.Quiero q mi pagina se mas grande. Bloqueo de ideas     -->
 <footer class="footer">

@@ -1,25 +1,110 @@
 .main{
     grid-area: main;
     &__info{
-        height:33rem;
-    }
-    &{
         background-image: url(../../img/portada/tienda.jpg);
         background-repeat: no-repeat;
         background-size: cover;
         background-attachment: fixed;
-        height: 100%;
     }
+    &__info{
+        height: 33rem;
+    }
+    &__contenid{
+       padding-top: 8rem;
+    };
+    
     &__presentation h1{
-        font-size: $title;
         color:$color_text;
         text-decoration: solid;
-        font-family: 'Inconsolata',monospace;
+        font-family:$IBM;
+        text-shadow: 2px 2px 4px #000000;
     }
     &__contenido p{
         font-size: $parafo;
         color:$color_text;
         text-decoration: solid;
-        font-family: 'Inconsolata',monospace;
+        font-family: $IBM;
     }
+    /*---------LIBROS--------*/
+    &__libros{
+        display:flex;
+        flex-wrap: wrap;
+        justify-content:space-around;
+        background-color:rgba(4, 2, 34, 0.789);
+    }
+    .card{
+        margin-top: 15px;
+        &_decorate{
+            position: relative;
+            width: 300px;
+            height: 400px;
+        }
+        .face{
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            backface-visibility: hidden;
+            border-radius: 10px;
+            overflow: hidden;
+            transition: .5s;
+        }
+        &_letras{
+            bottom: 0;
+            position: absolute;
+            background-color: $color_bang_card;
+            h1{
+              color:$color_text;
+              font-family:$IBM;
+            }
+        }
+        .front{
+            transform: perspective(600px) rotateY(0deg);
+            box-shadow: 0 5px 10px $color_nav;
+        }
+        .front img{
+            position:absolute;
+            height: 100%;
+            width: 100%;
+            object-fit: cover;
+        }
+        .back{
+            
+            transform:perspective(600px) rotateY(180deg);
+            padding: 15px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            text-align: center;
+            color:$color_text;
+            h1{
+                font-family: $Dancing;
+                text-shadow: 2px 2px 4px $color_text;
+            }
+            p{
+                font-weight: bold;
+                font-family:$Inconsolata;
+            }
+            h2{
+                font-family:$IBM;
+                font-weight: bold;
+                text-shadow: 2px 2px 4px $color_text;
+            }
+        }
+        .america{
+            background-image:url("../../img/img_card/america.jpg");
+            background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        }
+        &:hover .front{
+            transform:perspective(600px)rotateY(180deg);
+        }
+        &:hover .back{
+            transform:perspective(600px)rotateY(360deg);
+        }
+
+
+    }
+    
+    
 }

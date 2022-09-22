@@ -2,12 +2,18 @@
     grid-area: cabezera;
     position: sticky;
     top: 0px;
+    z-index: 5;
     &__navegacion{
         background-color: map-get($color,color_nav);
         .sub_menu{
-            background-color: $color_text;
+            background-color: $color_nav;
             margin-right: 1rem;
+            &:hover{
+                color: $color_menu;
+                
+            }
         }
+       
         &--div{
             padding-right: 2rem;
         }
@@ -15,7 +21,9 @@
             text-decoration: none;
         }
         .imagen{
-            @extend .imagen;
+            font-family:$Dancing;
+            color: $color_text;
+            padding-left:1rem;
             &:hover{
                 color: $color_text;
             }

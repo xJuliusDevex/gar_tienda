@@ -21,19 +21,28 @@
   position: -webkit-sticky;
   position: sticky;
   top: 0px;
+  z-index: 5;
 }
 .cabezera__navegacion {
   background-color: #120727;
 }
 .cabezera__navegacion .sub_menu {
-  background-color: #FFFFFF;
+  background-color: #120727;
   margin-right: 1rem;
+}
+.cabezera__navegacion .sub_menu:hover {
+  color: rgb(8, 4, 45);
 }
 .cabezera__navegacion--div {
   padding-right: 2rem;
 }
 .cabezera__navegacion a {
   text-decoration: none;
+}
+.cabezera__navegacion .imagen {
+  font-family: "Dancing Script", cursive;
+  color: #FFFFFF;
+  padding-left: 1rem;
 }
 .cabezera__navegacion .imagen:hover {
   color: #FFFFFF;
@@ -76,30 +85,111 @@
 }
 .main {
   grid-area: main;
+  /*---------LIBROS--------*/
 }
 .main__info {
-  height: 33rem;
-}
-.main {
   background-image: url(../../img/portada/tienda.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
-  height: 100%;
+}
+.main__info {
+  height: 33rem;
+}
+.main__contenid {
+  padding-top: 8rem;
 }
 .main__presentation h1 {
-  font-size: 3.5rem;
   color: #FFFFFF;
   -webkit-text-decoration: solid;
           text-decoration: solid;
-  font-family: "Inconsolata", monospace;
+  font-family: "IBM Plex Sans", sans-serif;
+  text-shadow: 2px 2px 4px #000000;
 }
 .main__contenido p {
   font-size: 1.5rem;
   color: #FFFFFF;
   -webkit-text-decoration: solid;
           text-decoration: solid;
+  font-family: "IBM Plex Sans", sans-serif;
+}
+.main__libros {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  background-color: rgba(4, 2, 34, 0.789);
+}
+.main .card {
+  margin-top: 15px;
+}
+.main .card_decorate {
+  position: relative;
+  width: 300px;
+  height: 400px;
+}
+.main .card .face {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+  border-radius: 10px;
+  overflow: hidden;
+  transition: 0.5s;
+}
+.main .card_letras {
+  bottom: 0;
+  position: absolute;
+  background-color: rgba(18, 7, 39, 0.6196078431);
+}
+.main .card_letras h1 {
+  color: #FFFFFF;
+  font-family: "IBM Plex Sans", sans-serif;
+}
+.main .card .front {
+  transform: perspective(600px) rotateY(0deg);
+  box-shadow: 0 5px 10px #120727;
+}
+.main .card .front img {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.main .card .back {
+  transform: perspective(600px) rotateY(180deg);
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+  color: #FFFFFF;
+}
+.main .card .back h1 {
+  font-family: "Dancing Script", cursive;
+  text-shadow: 2px 2px 4px #FFFFFF;
+}
+.main .card .back p {
+  font-weight: bold;
   font-family: "Inconsolata", monospace;
+}
+.main .card .back h2 {
+  font-family: "IBM Plex Sans", sans-serif;
+  font-weight: bold;
+  text-shadow: 2px 2px 4px #FFFFFF;
+}
+.main .card .america {
+  background-image: url("../../img/img_card/america.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.main .card:hover .front {
+  transform: perspective(600px) rotateY(180deg);
+}
+.main .card:hover .back {
+  transform: perspective(600px) rotateY(360deg);
 }
 
 .footer {
