@@ -85,7 +85,17 @@
 }
 .main {
   grid-area: main;
+  background-image: url(../../img/portada/R.jfif);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
   /*---------LIBROS--------*/
+}
+.main .main_utiles {
+  background-image: url(../../img/portada/utiles\ escolares.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
 }
 .main__info {
   background-image: url(../../img/portada/tienda.jpg);
@@ -98,6 +108,13 @@
 }
 .main__contenid {
   padding-top: 8rem;
+}
+.main .text_libros {
+  font-family: "IBM Plex Sans", sans-serif;
+  color: #FFFFFF;
+  -webkit-text-decoration: solid;
+          text-decoration: solid;
+  text-shadow: 2px 2px 4px #000000;
 }
 .main__presentation h1 {
   color: #FFFFFF;
@@ -117,15 +134,19 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-  background-color: rgba(46, 9, 9, 0.834);
 }
 .main .card {
   margin-top: 15px;
+  /*Utiles_Escolares*/
 }
 .main .card_decorate {
   position: relative;
   width: 300px;
   height: 400px;
+  margin-left: 25px;
+  margin-right: 25px;
+  margin-top: 15px;
+  margin-bottom: 25px;
 }
 .main .card .face {
   position: absolute;
@@ -181,6 +202,12 @@
 }
 .main .card .america {
   background-image: url("../../img/img_card/america.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.main .card .portugues {
+  background-image: url("../../img/img_card/brazil.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;

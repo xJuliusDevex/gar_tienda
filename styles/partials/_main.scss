@@ -1,5 +1,15 @@
 .main{
     grid-area: main;
+    background-image: url(../../img/portada/R.jfif);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+    .main_utiles{
+        background-image: url(../../img/portada/utiles\ escolares.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+    }
     &__info{
         background-image: url(../../img/portada/tienda.jpg);
         background-repeat: no-repeat;
@@ -12,6 +22,12 @@
     &__contenid{
        padding-top: 8rem;
     };
+    .text_libros{
+        font-family: $IBM;
+        color:$color_text;
+        text-decoration:solid;
+        text-shadow: 2px 2px 4px #000000;
+    }
     
     &__presentation h1{
         color:$color_text;
@@ -30,7 +46,6 @@
         display:flex;
         flex-wrap: wrap;
         justify-content:space-around;
-        background-color:rgba(46, 9, 9, 0.834);
     }
     .card{
         margin-top: 15px;
@@ -38,6 +53,10 @@
             position: relative;
             width: 300px;
             height: 400px;
+            margin-left: 25px;
+            margin-right: 25px;
+            margin-top: 15px;
+            margin-bottom: 25px;
         }
         .face{
             position: absolute;
@@ -96,15 +115,18 @@
         background-size: cover;
         background-attachment: fixed;
         }
+        .portugues{
+            background-image:url("../../img/img_card/brazil.jpg");
+            background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        }
         &:hover .front{
             transform:perspective(600px)rotateY(180deg);
         }
         &:hover .back{
             transform:perspective(600px)rotateY(360deg);
         }
-
-
-    }
-    
-    
+        /*Utiles_Escolares*/
+    }    
 }
