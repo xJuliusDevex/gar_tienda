@@ -59,21 +59,36 @@
           </nav>
     </header> 
     <main class="main">
-        <section class="container text-center main__info">
-            <section class="section_formulario">
+        <section class="container-fluid">
+            <section class="row ubicacion text-center">
+            <div class="col ">
+              <h1 class="text-center display-2 ubicar">Ubicanos</h1>
+              <p class="h3">Avenida Gustavo Pinto</p>
+              <h1 class="text-center display-5 ubicar">Referencias</h1>
+              <p class="h3">Al frente del ceid.
+                Estamos en una tienda para atenderlos.
+              </p>
+            </div>
+            <div class="col"> 
+              <div class="ubicacion__Tam">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d488.1983327472584!2d-70.23984540248316!3d-18.006527885700518!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x915ac58777a53237%3A0x22749f6d03b6836c!2sNano%20Publicidad!5e0!3m2!1sen!2spe!4v1664593293406!5m2!1sen!2spe" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+              </div>
+          </div>
+        </section>
+          <section class="section_formulario  row justify-content-start">
+            <h1 class="display-2 ubicar">Formulario</h1>
                 <div class="section_formulario_form">
                     <form class="" action="">
-                        <label for="correo">Correo:</label>
-                        <input type="email" name="correo">
-                        <br>
-                        <label for="fullname">Nombre:</label>
-                        <input type="text" name="fullname">
-                        <br>
-                        <label for="descripcion">Descripcion</label>
-                        <br>
-                        <textarea name="descripcion" rows="10" cols="40" placeholder="Escribe aquí tus comentarios"></textarea>
-                        <input type="submit"     value="enviar"></input>
+                      <div><label for="correo">Correo:</label></div>
+                      <div><input type="email"class="form-control-md" placeholder="name@example.com" name="correo"></div>
+                      <div><label for="fullname">Nombre:</label></div>
+                      <div><input type="text" name="fullname"></div>
+                      <div><label for="descripcion">Descripcion</label></div>
+                      <div><textarea name="descripcion" rows="10" cols="40" placeholder="Escribe aquí tus comentarios"></textarea>
+                        </div>
+                        <input class="text-center" type="submit" value="enviar"></input>
                     </form>
+                    
                 </div>
             </section>
         </section>
