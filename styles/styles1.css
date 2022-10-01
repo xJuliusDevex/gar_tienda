@@ -101,7 +101,7 @@
   background-attachment: fixed;
 }
 .main__info {
-  height: 34rem;
+  height: 35rem;
 }
 .main__contenid {
   padding-top: 8rem;
@@ -221,7 +221,7 @@
   background-attachment: fixed;
 }
 .main .main_utiles .card_utiles {
-  padding: 20px 20px 20px 20px;
+  margin: 5rem 5rem 5rem 5rem;
 }
 .main .main_utiles .card_utiles .body_text {
   color: #FFFFFF;

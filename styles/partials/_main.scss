@@ -12,7 +12,7 @@
         background-attachment: fixed;
     }
     &__info{
-        height: 34rem;
+        height: 35rem;
     }
     &__contenid{
        padding-top: 8rem;
@@ -130,7 +130,7 @@
         background-size: cover;
         background-attachment: fixed;
         .card_utiles{
-            padding: 20px 20px 20px 20px;
+            margin: 5rem 5rem 5rem 5rem;
             .body_text{
                 color:$color_text;
                 text-decoration: solid;
